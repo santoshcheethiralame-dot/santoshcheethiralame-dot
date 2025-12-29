@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=3399FF&center=true&vCenter=true&width=520&lines=Systems+Engineer;Backend+%26+AI+Systems;Reliability+%26+Evaluation;CS+Undergrad+%40+PES+University" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=3399FF&center=true&vCenter=true&width=820&lines=Systems+Engineer+who+cares+about+correctness;Backend+%26+AI+Systems+Builder;Evaluation%2C+Reliability+%26+Failure+Analysis;Automation+Agents+with+n8n+%7C+APIs+%7C+Data+Pipelines;CS+Undergrad+%40+PES+University" alt="Typing SVG" />
 </div>
 
 <h1 align="center">Santosh Cheethirala</h1>
 <h3 align="center">
-I build reliable backend systems and evaluation-first AI pipelines.
+I build reliable backend systems, automation pipelines, and evaluation-first AI frameworks.
 </h3>
 
 <p align="center">
@@ -22,12 +22,13 @@ I build reliable backend systems and evaluation-first AI pipelines.
 
 I’m a **Computer Science undergraduate at PES University** who enjoys building systems that are **correct, explainable, and reliable**.
 
-I don’t optimize for features first — I optimize for **behavior under constraints**.
+I don’t optimize for features first — I optimize for **behavior under real constraints**.
 
 What I care about:
-- **Correctness & Reliability** — deterministic logic, validation, failure-aware design
-- **Backend Systems** — APIs, aggregation logic, auth, and data modeling
-- **Evaluation-first AI** — measuring model behavior before optimizing models
+- **Correctness & Reliability** — deterministic logic, validation, failure-aware design  
+- **Backend Systems** — APIs, aggregation logic, auth, and data modeling  
+- **Evaluation-first AI** — measuring model behavior before optimizing models  
+- **Automation** — replacing manual workflows with event-driven agents and pipelines  
 
 ---
 
@@ -36,10 +37,10 @@ What I care about:
 ### 🎓 GradeLens — Course Evaluation Platform
 Anonymous, structured course-feedback system that aggregates **workload, difficulty, grading strictness, and GPA risk** to help students make informed academic decisions.
 
-**What I focused on**
-- Schema design for anonymous but constrained feedback
-- Aggregation logic over noisy human inputs
-- API correctness and defensive validation
+**System focus**
+- Schema design for anonymous but constrained feedback  
+- Aggregation logic over noisy human inputs  
+- Defensive APIs and validation-first backend design  
 
 **Tech**
 `Node.js` · `Express` · `MongoDB` · `JWT`
@@ -49,10 +50,10 @@ Anonymous, structured course-feedback system that aggregates **workload, difficu
 ### 🧠 LLM Evaluation & Reliability Framework *(Active Development)*
 A reproducible framework to evaluate LLM outputs using **rule-based checks** and **aggregation logic** to surface failure modes such as hallucination, instruction override, and prompt injection.
 
-**What I’m building**
-- Deterministic rule engine for format, consistency, and evidence checks
-- Aggregation of weak signals into explainable reliability scores
-- Failure taxonomy instead of raw “accuracy”
+**System focus**
+- Deterministic rule engine (format, consistency, evidence)  
+- Aggregation of weak signals into explainable reliability scores  
+- Failure taxonomy instead of raw “accuracy”  
 
 **Tech**
 `Python` · `FastAPI` · `Rule-based Evaluation`
@@ -62,22 +63,35 @@ A reproducible framework to evaluate LLM outputs using **rule-based checks** and
 ### 🧩 Digital Logic Platform
 Algorithmic system for parsing and minimizing Boolean expressions with a focus on **correctness and explainability** rather than UI.
 
-**What I implemented**
-- Expression parsing
-- Deterministic minimization logic
-- Structured evaluation of logical correctness
+**System focus**
+- Expression parsing  
+- Deterministic minimization logic  
+- Structured evaluation of logical correctness  
 
 **Tech**
 `C++` / `TypeScript` · `Algorithms`
 
 ---
 
+### ⚙️ Automation Agents (n8n)
+Designed **event-driven automation agents** to orchestrate APIs, data flows, and notifications using **n8n**, reducing manual workflows and improving system reliability.
+
+**Focus**
+- Trigger-based workflows  
+- API integrations  
+- Data transformation & conditional routing  
+
+**Tech**
+`n8n` · `REST APIs` · `Webhooks`
+
+---
+
 ## 🔍 Current Focus
 
-- Designing **rule-based evaluation systems** for LLMs
-- Studying AI failure modes: hallucination, instruction override, prompt injection
-- Improving aggregation and explainability of evaluation signals
-- Strengthening backend correctness and validation practices
+- Designing **rule-based evaluation systems** for LLMs  
+- Studying AI failure modes: hallucination, instruction override, prompt injection  
+- Improving aggregation and explainability of evaluation signals  
+- Strengthening backend correctness and validation practices  
 
 ---
 
@@ -96,6 +110,7 @@ Algorithmic system for parsing and minimizing Boolean expressions with a focus o
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 
 ### Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
@@ -105,15 +120,7 @@ Algorithmic system for parsing and minimizing Boolean expressions with a focus o
 
 ---
 
-## 📊 GitHub Activity
-
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=santoshcheethiralame-dot&show_icons=true&theme=dark&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=santoshcheethiralame-dot&layout=compact&theme=dark&hide_border=true" />
-</div>
-
----
-
 <p align="center">
-  <i>"Build systems you can explain."</i>
+  <i>“Build systems you can explain.”</i><br/>
+  <sub>(and debug at 3 AM without panicking)</sub>
 </p>
