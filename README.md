@@ -29,8 +29,8 @@ My work focuses on:
 
 ## 🏆 Featured Projects
 
-| **Project** | **Description** | **Tech Stack** |
-| :--- | :--- | :--- |
+| **Project** | **Description** |
+| :--- | :--- |
 | **🎓 GradeLens** | **Course Evaluation & Insight Platform**  
 Anonymous, structured course feedback system that aggregates workload, difficulty, grading strictness, and GPA risk to help students make informed academic decisions. Focused on **aggregation logic, schema design, and backend correctness**. | `Node.js` `Express` `MongoDB` `JWT` |
 | **🧠 LLM Evaluation & Reliability Framework** | **AI Systems Project (Ongoing)**  
