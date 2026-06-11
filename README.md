@@ -1,126 +1,94 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=3399FF&center=true&vCenter=true&width=820&lines=Systems+Engineer+who+cares+about+correctness;Backend+%26+AI+Systems+Builder;Evaluation%2C+Reliability+%26+Failure+Analysis;Automation+Agents+with+n8n+%7C+APIs+%7C+Data+Pipelines;CS+Undergrad+%40+PES+University" alt="Typing SVG" />
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│  THE DAILY CHEETHIRALA                          VOL. I · BENGALURU    │
+│  ───────────────────────────────────────────────────────────────────│
+│  "I build systems I can explain — and debug at 3 AM without panic."  │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&pause=1400&color=111111&background=FFFFFF00&center=true&vCenter=true&width=820&lines=santosh+cheethirala+%2F%2F+yami;interpretability+%2B+hallucination+attribution;cs+%40+pes+university+%C2%B7+pesu+intelligence+labs;i+care+about+why+models+say+what+they+say" alt="header" />
+
 </div>
 
-<h1 align="center">Santosh Cheethirala</h1>
-<h3 align="center">
-I build reliable backend systems, automation pipelines, and evaluation-first AI frameworks.
-</h3>
+---
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/santoshcheethirala/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:santoshcheethirala.me@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+```
+WHO ───────────────────────────────────────────────────────────────────
+```
+
+cs undergrad at **PES University, Bengaluru**. incoming research intern at **PESU Intelligence Labs**, working on **interpretability** and **hallucination attribution** — figuring out *which* piece of context a model actually leaned on when it spoke, and *why*.
+
+i don't optimize for features first. i optimize for **behavior under real constraints**: correctness, evidence, and being able to explain the failure when it happens.
+
+```
+off the clock ─ national-level air rifle shooting · filter coffee · a cat named Stderr
+```
 
 ---
 
-## 🧩 How I Build Systems
+```
+THE PRESS RUN ─────────────────────────────────────────  selected work
+```
 
-I’m a **Computer Science undergraduate at PES University** who enjoys building systems that are **correct, explainable, and reliable**.
+### ◐ ORBIT
+> a tool for watching what a model is paying attention to — attribution and attention made legible instead of buried in tensors.
 
-I don’t optimize for features first — I optimize for **behavior under real constraints**.
-
-What I care about:
-- **Correctness & Reliability** — deterministic logic, validation, failure-aware design  
-- **Backend Systems** — APIs, aggregation logic, auth, and data modeling  
-- **Evaluation-first AI** — measuring model behavior before optimizing models  
-- **Automation** — replacing manual workflows with event-driven agents and pipelines  
+`interpretability` · `attribution` · `python`
 
 ---
 
-## 🏆 Selected Projects
+### ◢ GRADIENT
+> where signal becomes shape. an experiment in turning model internals into something you can *read* at a glance rather than squint at.
 
-### 🎓 GradeLens — Course Evaluation Platform
-Anonymous, structured course-feedback system that aggregates **workload, difficulty, grading strictness, and GPA risk** to help students make informed academic decisions.
-
-**System focus**
-- Schema design for anonymous but constrained feedback  
-- Aggregation logic over noisy human inputs  
-- Defensive APIs and validation-first backend design  
-
-**Tech**
-`Node.js` · `Express` · `MongoDB` · `JWT`
+`visualization` · `model internals` · `frontend`
 
 ---
 
-### 🧠 LLM Evaluation & Reliability Framework *(Active Development)*
-A reproducible framework to evaluate LLM outputs using **rule-based checks** and **aggregation logic** to surface failure modes such as hallucination, instruction override, and prompt injection.
+### ▣ GLASSBOX
+> a **GPT-2 interpretability playground** — open the box, poke the activations, watch the thing think. cyan-accented, brutalist by design, built to make mechanistic interp feel hands-on.
 
-**System focus**
-- Deterministic rule engine (format, consistency, evidence)  
-- Aggregation of weak signals into explainable reliability scores  
-- Failure taxonomy instead of raw “accuracy”  
-
-**Tech**
-`Python` · `FastAPI` · `Rule-based Evaluation`
+`gpt-2` · `mechanistic interp` · `interactive`
 
 ---
 
-### 🧩 Digital Logic Platform
-Algorithmic system for parsing and minimizing Boolean expressions with a focus on **correctness and explainability** rather than UI.
+```
+CURRENTLY SET IN TYPE ─────────────────────────────────────────────────
+```
 
-**System focus**
-- Expression parsing  
-- Deterministic minimization logic  
-- Structured evaluation of logical correctness  
+📰 **RAG hallucination attribution benchmark** — a controlled, non-adversarial benchmark for chunk-error attribution. a 2×2 of *counterfactual effect* × *apparent salience*, building on **ContextCite** (Cohen-Wang et al., 2024). targeting a Findings / workshop / NeurIPS D&B-tier writeup.
 
-**Tech**
-`C++` / `TypeScript` · `Algorithms`
+the question underneath it: when a RAG system hallucinates, *which retrieved chunk is to blame* — and can we measure that cleanly?
 
 ---
 
-### ⚙️ Automation Agents (n8n)
-Designed **event-driven automation agents** to orchestrate APIs, data flows, and notifications using **n8n**, reducing manual workflows and improving system reliability.
+```
+THE TOOLBOX ───────────────────────────────────────────────────────────
+```
 
-**Focus**
-- Trigger-based workflows  
-- API integrations  
-- Data transformation & conditional routing  
-
-**Tech**
-`n8n` · `REST APIs` · `Webhooks`
-
----
-
-## 🔍 Current Focus
-
-- Designing **rule-based evaluation systems** for LLMs  
-- Studying AI failure modes: hallucination, instruction override, prompt injection  
-- Improving aggregation and explainability of evaluation signals  
-- Strengthening backend correctness and validation practices  
+![Python](https://img.shields.io/badge/Python-111111?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-111111?style=flat-square&logo=pytorch&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=white)
+![Astro](https://img.shields.io/badge/Astro-111111?style=flat-square&logo=astro&logoColor=white)
+![C++](https://img.shields.io/badge/C++-111111?style=flat-square&logo=cplusplus&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-111111?style=flat-square&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-111111?style=flat-square&logo=nodedotjs&logoColor=white)
+![Git](https://img.shields.io/badge/Git-111111?style=flat-square&logo=git&logoColor=white)
 
 ---
 
-## 🛠️ Core Stack
+<div align="center">
 
-### Languages
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+```
+ON THE RECORD
+```
 
-### Backend & Systems
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/santoshcheethirala/)
+[![Email](https://img.shields.io/badge/Email-111111?style=for-the-badge&logo=gmail&logoColor=white)](mailto:santoshcheethirala.me@gmail.com)
 
-### Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+<sub>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</sub>
 
----
+<sub><i>"build systems you can explain."</i> · printed in bengaluru · all editions final</sub>
 
-<p align="center">
-  <i>“Build systems you can explain.”</i><br/>
-  <sub>(and debug at 3 AM without panicking)</sub>
-</p>
+</div>
