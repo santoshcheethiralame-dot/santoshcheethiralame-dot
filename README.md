@@ -1,31 +1,17 @@
-```
-:::::::::::=++--=====================================   santosh@github
-:::::::::-:==--:==============-::====-:..-===========   ────────────────────────────────────────
-:::::::::::+=%*--=============-:---:.:-*+:-------:--:   . OS:         ......  Windows 11
-:::::::-:::-%%%%#-========--==----:..:#%#:-----------   . Shell:      ......  zsh + starship
-:::::::-::.+%%####+--=---=----::-:..:*%%%*-----------   . IDE:        ......  VSCode / Neovim
-:::::::-::=%%%######-:--------::....-#%%%#-----------   . Lang:       ......  TypeScript · Python · C · WGSL
-:::::::::.=%%%%%###*=:::::::::::...:##%%%%-----------   . Focus:      ......  ML Interpretability · Frontend
-:::::::::.=#%%%+=:::::::-:::::::::::=*#%%%-----------   . University: ......  PES University, CSE '28
-:::::::::.=##*#-::::::::-:::::-::::::::+**-::::::::-:   . CGPA:       ......  7.95 / 10
-::::::::..=*=:::-:::::::::::::-::::::-:::+-::::::::::   
-:::::::...:::::::::::::::::::::::::::::::.:::::::::::   - Awards & Role ────────────────────────
-:::::::...::::::::::::::::::::::::::::::::.::::::::::   . Scholarship: .....  Top 25% cohort — Sem 1
-:::::.:...::::::=-....-===-:::::::+*:.:***-::::::::-:   . Distinction: .....  Academic Award — Sem 2 & 4
-:::::.::..::::::*%#---*%%%#:::::::=%*-=%%%#::::::::-:   . Intern:      .....  PESU Intelligence Labs (active)
-.::::.::...:::::-%@@@@@@@#-::::::::-*%%%%*:::::::::::   
-..:::......::::::::::::::::::::===:::::::::::::::::::   - Stack ────────────────────────────────
-..::::::::..:::::::::::::::::::-+=::::-::::::::.:::::   . Frontend:  .......  React · Astro · Tailwind · Vite
-::::::::....:--::-::::::::::::::::::::-::::.:::::::::   . ML/NLP:    .......  RAG Systems · TransformerLens
-::::::::..::..::::::::::::::::::::::::::::..:::::::::   . Systems:   .......  C · WebGPU · WGSL · Docker
-::::::--:......::::::::::::::::::-:::::::..:::::-::::   
-:::::::::........::::::::::::::::::::::...::::::-::::   - Projects ─────────────────────────────
-::::-:::............:::::::::::::::::....::::--::::::   . GlassBox:  .......  GPT-2 interpretability microscope
-::::-:::....::::..........................:::::::::::   . GRADIENT:  .......  Neural net in-browser via WebGPU
-::::::::...:::::::........................:::::::::::   . Orbit:     .......  Local-first study PWA · shipped
-::::::::....:::::::::::...................:::::::::::   
-:::::::......:::::::::::::................:::::::::::   - Contact ──────────────────────────────
-:::::::.......::::::::::::::::::::.........::::::::::   . Email:    ........  santoshcheethirala.me@gmail.com
-:::::::.......:::::::::::::::::::::.........:::::::::   . GitHub:   ........  github.com/santoshcheethirala
-:::::::.......::::::::::::::::::::::........:::::::::   . Portfolio: .......  santoshcheethirala.me
-```
+<div align="center">
+
+<img src="neofetch.svg" alt="santosh — CS undergrad @ PES University · ML interpretability · frontend" width="842">
+
+<br>
+
+[**portfolio**](https://santoshcheethirala.me)&ensp;·&ensp;[**glassbox**](https://github.com/santoshcheethiralame-dot/glassbox)&ensp;·&ensp;[**gradient**](https://github.com/santoshcheethiralame-dot/gradient)&ensp;·&ensp;[**orbit**](https://github.com/santoshcheethiralame-dot/orbit)&ensp;·&ensp;[**email**](mailto:santoshcheethirala.me@gmail.com)
+
+</div>
+
+<!--
+optional: top languages card themed to match the panel. uncomment to enable.
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=santoshcheethiralame-dot&layout=compact&hide_border=true&bg_color=0B0B0D&text_color=E8E3D8&title_color=4FD6E5&langs_count=6" width="380">
+</div>
+-->
