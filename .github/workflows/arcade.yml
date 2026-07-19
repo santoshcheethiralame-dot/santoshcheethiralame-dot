@@ -18,7 +18,7 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: santoshcheethiralame-dot
-          games: 'pacman,breakout'
+          games: 'pacman'
 
       - name: push arcade SVGs to the output-arcade branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
