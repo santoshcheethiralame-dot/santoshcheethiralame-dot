@@ -117,49 +117,43 @@ def streaks(days):
 
 
 def render(d: dict) -> str:
-    # one horizontal bar per month: survives GitHub's line-height, and any
-    # monospace font has full blocks and light shade
+    W = 24
+    bar = lambda f: "█" * (n := max(1 if f > 0 else 0, round(f * W))) + "░" * (W - n)
+
     months: dict[str, int] = {}
     for date, c in d["days"][-365:]:
-        key = date[:7]
-        months[key] = months.get(key, 0) + c
+        months[date[:7]] = months.get(date[:7], 0) + c
     keys = sorted(months)[-12:]
     mx = max(months[k] for k in keys) or 1
-    W = 28
-    chart = []
-    for k in keys:
-        v = months[k]
-        n = round(v / mx * W)
-        if v and not n:
-            n = 1
-        name = dt.date.fromisoformat(k + "-01").strftime("%b %y").lower()
-        chart.append(f"  {name:<12}{'█' * n}{'░' * (W - n)}  {v:>6,}")
+
     cur, best = streaks(d["days"])
     total = sum(d["langs"].values()) or 1
     top = sorted(d["langs"].items(), key=lambda kv: -kv[1])[:6]
-    lang_lines = []
+    stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+
+    out = [
+        "```yaml",
+        f"# regenerated {stamp} by .github/workflows/telemetry.yml",
+        "last_12_months:",
+        f"  contributions: {d['total']}",
+        f"  commits: {d['commits']}",
+        f"  pull_requests: {d['prs']}",
+        f"  streak: {{ now: {cur}, best: {best} }}   # days",
+        f"  repos: {d['repos']}",
+        f"  stars: {d['stars']}",
+        "",
+        "by_month:",
+    ]
+    for k in keys:
+        name = dt.date.fromisoformat(k + "-01").strftime("%b_%y").lower()
+        v = months[k]
+        out.append(f"  {name + ':':<9}{v:>5}   # {bar(v / mx)}")
+    out += ["", "languages:   # share of bytes in my own repos"]
     for name, v in top:
         f = v / total
-        n = round(f * W)
-        lang_lines.append(f"  {name:<12}{'█' * n}{'░' * (W - n)}  {f * 100:5.1f}%")
-
-    stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    out = [
-        "```text",
-        f"  contributions   {d['total']:,}",
-        f"  commits         {d['commits']:,}   ·   pull requests {d['prs']:,}",
-        f"  streak          {cur}d now   ·   best {best}d",
-        f"  repos           {d['repos']:,}   ·   stars {d['stars']:,}",
-        "",
-        "  contributions by month",
-        *chart,
-        "",
-        "  languages (bytes, own repos)",
-        *lang_lines,
-        "",
-        f"  # regenerated {stamp} by .github/workflows/telemetry.yml",
-        "```",
-    ]
+        key = f'"{name}":' if not name.replace(" ", "").isalnum() or " " in name else f"{name}:"
+        out.append(f"  {key:<13}{f * 100:5.1f}   # {bar(f)}")
+    out.append("```")
     return "\n".join(out)
 
 

@@ -1,2 +1,2 @@
-fonttools>=4.50   # only for scripts/neofetch.py
+fonttools>=4.50   # only for scripts/build.py
 brotli>=1.1

@@ -1,31 +1,36 @@
-<div align="center">
+<!-- the coloured bits are SVGs from scripts/build.py; everything else is plain text, edit away -->
 
-```
-  █████████    █████████   ██████   █████ ███████████    ███████     █████████  █████   █████
- ███░░░░░███  ███░░░░░███ ░░██████ ░░███ ░█░░░███░░░█  ███░░░░░███  ███░░░░░███░░███   ░░███ 
-░███    ░░░  ░███    ░███  ░███░███ ░███ ░   ░███  ░  ███     ░░███░███    ░░░  ░███    ░███ 
-░░█████████  ░███████████  ░███░░███░███     ░███    ░███      ░███░░█████████  ░███████████ 
- ░░░░░░░░███ ░███░░░░░███  ░███ ░░██████     ░███    ░███      ░███ ░░░░░░░░███ ░███░░░░░███ 
- ███    ░███ ░███    ░███  ░███  ░░█████     ░███    ░░███     ███  ███    ░███ ░███    ░███ 
-░░█████████  █████   █████ █████  ░░█████    █████    ░░░███████░  ░░█████████  █████   █████
- ░░░░░░░░░  ░░░░░   ░░░░░ ░░░░░    ░░░░░    ░░░░░       ░░░░░░░     ░░░░░░░░░  ░░░░░   ░░░░░
-```
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg"><img alt="SANTOSH in ascii block letters. Sai Santosh Cheethirala, CS at PES University, Bengaluru. Interning at PESU I-Labs, open to summer 2027." src="assets/banner-dark.svg"></picture>
 
-### CS @ PES University · Systems · AI Safety · Agents
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-santoshcheethirala.vercel.app-6e5494?style=flat-square&logo=vercel&logoColor=white)](https://santoshcheethirala.vercel.app)
-[![Profile Views](https://komarev.com/ghpvc/?username=santoshcheethiralame-dot&color=00d4ff&style=flat-square&label=profile+views)](https://github.com/santoshcheethiralame-dot)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/santoshcheethirala/)
-
-</div>
-
-I like problems where the answer has to be **shown**, not asserted: lost writes reproduced under a linearizability checker, agent rules proven against git history, safety audits that come with an estimate of what they missed.
+<p><a href="https://github.com/santoshcheethiralame-dot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/bar/session-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/bar/session-light.svg"><img alt="[santosh]" src="assets/bar/session-dark.svg" height="30"></picture></a><a href="https://santoshcheethirala.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/bar/portfolio-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/bar/portfolio-light.svg"><img alt="1:portfolio*" src="assets/bar/portfolio-dark.svg" height="30"></picture></a><a href="https://www.linkedin.com/in/santoshcheethirala/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/bar/linkedin-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/bar/linkedin-light.svg"><img alt="2:linkedin" src="assets/bar/linkedin-dark.svg" height="30"></picture></a><a href="https://santoshcheethirala.vercel.app/resume"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/bar/resume-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/bar/resume-light.svg"><img alt="3:resume" src="assets/bar/resume-dark.svg" height="30"></picture></a><a href="mailto:santoshcheethirala.me@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/bar/email-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/bar/email-light.svg"><img alt="4:mail" src="assets/bar/email-dark.svg" height="30"></picture></a></p>
 
 <br>
 
-<p align="center"><img alt="neofetch: an ascii cat next to OS, editor, languages, university, research, honours, hackathons and hobbies" src="assets/neofetch.svg" width="880"></p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/prompt/about-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/prompt/about-light.svg"><img alt="~ $ cat santosh.py" src="assets/prompt/about-dark.svg"></picture>
 
-## `~/projects`
+```python
+class Santosh(Undergrad):
+    """cares less about whether a system works than about why it fails."""
+
+    home     = "Bengaluru, India"
+    studying = "CSE @ PES University, class of '28"
+    now      = "interning @ PESU I-Labs · open to summer 2027"
+    research = "tracing RAG errors back to the passages that caused them"
+
+    stack = {
+        "systems": ["Rust", "Go", "C", "Raft", "LSM-trees"],
+        "ml":      ["PyTorch", "TransformerLens", "sparse autoencoders"],
+        "web/gpu": ["TypeScript", "React", "Three.js", "WebGPU", "WGSL"],
+    }
+
+    def offline(self):
+        yield "10m air rifle, national level"
+        yield "filter coffee, non-negotiable"
+```
+
+<br>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/prompt/projects-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/prompt/projects-light.svg"><img alt="~/projects $ tree -L 2" src="assets/prompt/projects-dark.svg"></picture>
 
 ### `systems/`
 
@@ -71,9 +76,14 @@ I like problems where the answer has to be **shown**, not asserted: lost writes 
 
 **also cooking, private for now:** DRAGNET · LINEUP · FORGE · HEMLOCK · CHRONOS
 
-## `git diff now.md`
+<br>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/prompt/now-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/prompt/now-light.svg"><img alt="~ $ git diff HEAD~1 -- now.md" src="assets/prompt/now-dark.svg"></picture>
 
 ```diff
+@@ now.md @@
+- looking for a research lab that would have me
++ interning @ PESU I-Labs, first author on a RAG attribution benchmark
 - reading interpretability papers
 + writing one: MissingMass, arXiv preprint aimed at Dec 2026
 - trusting "majority" durability
@@ -82,44 +92,70 @@ I like problems where the answer has to be **shown**, not asserted: lost writes 
 + AGENTS.md as a pre-commit hook
 ```
 
-## `cat src/main.rs`
+<br>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/prompt/resume-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/prompt/resume-light.svg"><img alt="~/resume $ git branch --list 'resume/*'" src="assets/prompt/resume-dark.svg"></picture>
+
+<p>
+<a href="https://santoshcheethirala.vercel.app/resumes/Cheethirala_Resume_SWE_Backend.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/resume/swe-backend-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/resume/swe-backend-light.svg"><img alt="resume/swe-backend: the general read · tessera, GlassBox, BATCH" src="assets/resume/swe-backend-dark.svg"></picture></a><br>
+<a href="https://santoshcheethirala.vercel.app/resumes/Cheethirala_Resume_ML_Research.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/resume/ml-research-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/resume/ml-research-light.svg"><img alt="resume/ml-research: interpretability, RAG reliability · DRAGNET, GlassBox" src="assets/resume/ml-research-dark.svg"></picture></a><br>
+<a href="https://santoshcheethirala.vercel.app/resumes/Cheethirala_Resume_Systems_Infra.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/resume/systems-infra-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/resume/systems-infra-light.svg"><img alt="resume/systems-infra: storage, consensus · highwater, tessera" src="assets/resume/systems-infra-dark.svg"></picture></a><br>
+<a href="https://santoshcheethirala.vercel.app/resumes/Cheethirala_Resume_Fintech_Data.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/resume/fintech-data-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/resume/fintech-data-light.svg"><img alt="resume/fintech-data: payments, fraud, causal measurement · Untangle, LIFT" src="assets/resume/fintech-data-dark.svg"></picture></a><br>
+<a href="https://santoshcheethirala.vercel.app/resumes/Cheethirala_Resume_SDET_Quality.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/resume/sdet-quality-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/resume/sdet-quality-light.svg"><img alt="resume/sdet-quality: testing, fault injection · highwater, tessera" src="assets/resume/sdet-quality-dark.svg"></picture></a><br>
+<a href="https://santoshcheethirala.vercel.app/resumes/Cheethirala_Resume_Security.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/resume/security-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/resume/security-light.svg"><img alt="resume/security: correctness, assurance · highwater, Untangle" src="assets/resume/security-dark.svg"></picture></a><br>
+</p>
+
+<sub>six editions of one résumé, each leading with the work that fits the role. not sure which? <code>swe-backend</code> is the general read, or <a href="https://santoshcheethirala.vercel.app/resume">pick on the site</a>.</sub>
+
+<br>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/prompt/loop-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/prompt/loop-light.svg"><img alt="~/life $ cat src/main.rs" src="assets/prompt/loop-dark.svg"></picture>
 
 ```rust
+// std only. no crates were harmed.
 fn main() {
-    let mut me = Santosh::boot();          // cse '28, pes university
+    let mut me = Santosh::boot();            // cse '28, pes university
 
     loop {
         let thing = me.build();
-        let bugs  = me.break_it(&thing);   // the fun part
+        let bugs  = me.break_it(&thing);     // the fun part
         assert!(bugs.iter().all(|b| b.reproduces()));   // or it didn't happen
-        me.write_readme(&thing);           // longer than the code. always.
-        me.coffee += 1;                    // filter. non-negotiable.
+        me.write_readme(&thing);             // longer than the code. always.
+        me.coffee += 1;                      // filter. non-negotiable.
     }
 }
 ```
 
-## `./telemetry --since 1y`
+<br>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/prompt/telemetry-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/prompt/telemetry-light.svg"><img alt="~ $ ./telemetry --since 1y" src="assets/prompt/telemetry-dark.svg"></picture>
 
 <!-- telemetry:start -->
-```text
-  warming up... the first run fills this in after the next push to main.
+```yaml
+# warming up: the first run fills this in after the next push to main
 ```
 <!-- telemetry:end -->
 
-## `snake --eat ~/.contributions`
+<br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/santoshcheethiralame-dot/santoshcheethiralame-dot/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/santoshcheethiralame-dot/santoshcheethiralame-dot/output/snake.svg">
-  <img alt="a snake eating my contribution graph" src="https://raw.githubusercontent.com/santoshcheethiralame-dot/santoshcheethiralame-dot/output/snake-dark.svg" width="100%">
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/prompt/snake-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/prompt/snake-light.svg"><img alt="~ $ snake --eat ~/.contributions" src="assets/prompt/snake-dark.svg"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/santoshcheethiralame-dot/santoshcheethiralame-dot/output/snake-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/santoshcheethiralame-dot/santoshcheethiralame-dot/output/snake.svg"><img alt="a snake eating my contribution graph" src="https://raw.githubusercontent.com/santoshcheethiralame-dot/santoshcheethiralame-dot/output/snake-dark.svg" width="100%"></picture>
 
 <details>
-<summary>or watch pac-man do it</summary>
+<summary><code>~ $ pacman --eat ~/.contributions</code></summary>
 <br>
 <img alt="pac-man eating my contribution graph" src="https://raw.githubusercontent.com/santoshcheethiralame-dot/santoshcheethiralame-dot/output-arcade/pacman-contribution-graph.svg" width="100%">
 </details>
 
 <br>
 
-<p align="center"><code>santosh@github:~$ exit</code></p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/prompt/exit-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/prompt/exit-light.svg"><img alt="~ $ exit" src="assets/prompt/exit-dark.svg"></picture>
+
+```text
+logout
+
+[Process completed]
+```
+
+<p align="right"><img alt="visitors" src="https://komarev.com/ghpvc/?username=santoshcheethiralame-dot&label=visitors&color=FFB454&style=flat-square"></p>
