@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - name: generate pac-man + breakout from contribution graph
+      - name: generate pac-man from contribution graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: santoshcheethiralame-dot
