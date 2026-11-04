@@ -1,0 +1,40 @@
+name: refresh telemetry
+
+on:
+  schedule:
+    - cron: "17 2 * * *"     # once a day
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/telemetry.py"
+      - ".github/workflows/telemetry.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  telemetry:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # The default token sees public activity only. For private contributions,
+      # add a classic PAT (read:user + repo) as the STATS_TOKEN secret.
+      - name: rewrite the telemetry block in README.md
+        run: python scripts/telemetry.py --user ${{ github.repository_owner }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: commit if it changed
+        run: |
+          git diff --quiet README.md && exit 0
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "telemetry: daily refresh"
+          git push

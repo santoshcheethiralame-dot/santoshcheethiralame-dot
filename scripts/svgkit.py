@@ -1,9 +1,8 @@
-"""Tiny SVG toolkit shared by the profile asset builders.
+"""Tiny SVG toolkit for the neofetch card.
 
-Everything the README shows is drawn here, so the whole page shares one
-palette, one type system and one grid. Fonts are subset to the glyphs each
-file actually uses and embedded as WOFF2, because an SVG shown through an
-<img> tag cannot load anything from the network.
+Fonts are subset to the glyphs the file actually uses and embedded as WOFF2,
+because an SVG shown through an <img> tag cannot load anything from the
+network.
 
 Requires: fonttools, brotli   (pip install fonttools brotli)
 """
@@ -22,14 +21,8 @@ FONT_DIR = ROOT / "assets" / "fonts"
 # ── type ────────────────────────────────────────────────────────────────────
 # family alias -> (file, generic fallback)
 FONTS = {
-    "mono":    ("JetBrainsMono-Regular.ttf",   "monospace"),
-    "mono-m":  ("JetBrainsMono-Medium.ttf",    "monospace"),
-    "mono-b":  ("JetBrainsMono-Bold.ttf",      "monospace"),
-    "mono-xb": ("JetBrainsMono-ExtraBold.ttf", "monospace"),
-    "sans":    ("Inter-Regular.otf",           "sans-serif"),
-    "sans-m":  ("Inter-Medium.otf",            "sans-serif"),
-    "sans-sb": ("Inter-SemiBold.otf",          "sans-serif"),
-    "disp-b":  ("InterDisplay-Bold.otf",       "sans-serif"),
+    "mono":   ("JetBrainsMono-Regular.ttf", "monospace"),
+    "mono-b": ("JetBrainsMono-Bold.ttf",    "monospace"),
 }
 FALLBACK = {
     "monospace": "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace",
